@@ -64,3 +64,9 @@ deploy/.env
 web/node_modules/
 web/dist/
 web/.vite/
+
+# 本地文件，不进仓库：带环境细节的东西只留在工作区
+/CLAUDE.md
+/docs/internal/
+/hack/internal-data-patterns.local.txt
+/local.mk
